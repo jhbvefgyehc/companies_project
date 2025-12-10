@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background:#f7f7f7; }
+.container { max-width: 980px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+header h1 { margin: 0 0 16px 0; font-size: 22px; }
+.table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.table th, .table td { padding: 8px 10px; border: 1px solid #e6e6e6; text-align: left; }
+.form { display:flex; flex-direction:column; gap:10px; max-width:600px; }
+.form input { padding:8px; font-size:14px; }
+button { padding:8px 10px; margin: 0 6px 0 0; cursor:pointer; }
+.error { color: #c62828; }
+@media (max-width: 600px) {
+  .table thead { display:none; }
+  .table tr { display:block; border-bottom:1px solid #ddd; margin-bottom:8px; }
+  .table td { display:block; padding:6px; }
+}
